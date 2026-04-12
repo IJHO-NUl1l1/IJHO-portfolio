@@ -453,7 +453,7 @@ export const PROJECTS = {
       period: "2024.12 ~ 2025.05",
       type: "팀 프로젝트",
       media: [
-        { type: "image", src: "/DAO1.png", alt: "Epoch 기여 제출 → Admin 승인 → 보상 분배 플로우" },
+        { type: "image" as const, src: "/DAO1.png", alt: "Epoch 기여 제출 → Admin 승인 → 보상 분배 플로우" },
       ],
       description:
         "인하대학교 블록체인 학회의 GitHub 기여 활동을 정량화하고 온체인 보상으로 연결하는 DAO 플랫폼. 학기(Epoch) 단위로 기여도를 측정하고 스마트컨트랙트로 보상을 분배.",
@@ -485,8 +485,8 @@ export const PROJECTS = {
       period: "2025.03 (Mammothon Celestia Hackathon)",
       type: "해커톤 팀 프로젝트",
       media: [
-        { type: "image", src: "/WIW.jpg", alt: "게임 생성 → 베팅 → 결과 정산 플로우" },
-        { type: "video", src: "/Who%20is%20Winner.mp4" },
+        { type: "image" as const, src: "/WIW.jpg", alt: "게임 생성 → 베팅 → 결과 정산 플로우" },
+        { type: "video" as const, src: "/Who%20is%20Winner.mp4" },
       ],
       description:
         "두 AI 에이전트가 토론하고 유저가 승자를 예측해 MOVE 토큰으로 베팅하는 예측 마켓. Messenger-style UI로 AI 토론을 실시간 표시.",
