@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import Link from "next/link";
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -107,7 +106,7 @@ export default function Hero() {
           style={{ color: "var(--text-primary)" }}
         >
           I&apos;m{" "}
-          <span className="gradient-text">IJHO</span>
+          <span className="gradient-text">JIHO</span>
         </h1>
 
         <p

@@ -26,7 +26,7 @@ export default function Nav() {
           href="#"
           className="text-sm font-bold tracking-tight gradient-text"
         >
-          IJHO
+          JIHO
         </a>
 
         <div className="flex items-center gap-6">

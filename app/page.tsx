@@ -21,7 +21,7 @@ export default function Home() {
           borderTop: "1px solid var(--border-subtle)",
         }}
       >
-        © 2026 IJHO. Built with Next.js
+        © 2026 JIHO. Built with Next.js
       </footer>
     </>
   );

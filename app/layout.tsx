@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IJHO — Frontend Developer",
-  description: "복잡한 시스템을 직관적인 인터페이스로 만드는 프론트엔드 개발자 IJHO의 포트폴리오입니다.",
+  title: "JIHO — Frontend Developer",
+  description: "복잡한 시스템을 직관적인 인터페이스로 만드는 프론트엔드 개발자 JIHO의 포트폴리오입니다.",
 };
 
 export default function RootLayout({
